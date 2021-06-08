@@ -1,0 +1,127 @@
+.App{
+
+}
+
+
+.background{
+
+  width: 1500px;
+  height: 850px;
+}
+
+#titre{
+ 
+  color: white;
+  font-size: 50px;
+}
+
+#text{
+  margin-top: 0px;
+  color: white;
+}
+
+
+.affich{
+  background-color: none;
+  width: 700px;
+  height:250px;
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 15px;
+  
+  grid-auto-rows: minmax(5px, auto);
+}
+
+.sol861{
+  background-color: rgba(255, 255, 255, .4);
+
+  grid-column:  1 / 2;
+  grid-row: 1 / 1;
+  width: 300px;
+  height:200px;
+}
+
+.tempe{
+  background-color: rgba(255, 255, 255, .4);
+
+  grid-column:  2 / 2;
+  grid-row: 1 / 1;
+  width: 300px;
+  height:200px;
+}
+
+
+
+.sol{
+  background-color: none;
+  width: 1500px;
+  height:175px;
+  margin-top: 150px;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-gap: 15px;
+  
+  grid-auto-rows: minmax(5px, auto);
+
+
+}
+
+
+.sol1{
+  background-color: rgba(255, 255, 255, .4);
+
+  grid-column:  1 / 7;
+  grid-row: 1 / 1;
+  width: 175px;
+  height:175px;
+}
+
+.sol2{
+  background-color: rgba(255, 255, 255, .4);
+  grid-column:  2 / 7;
+  grid-row: 1 / 1;
+  width: 175px;
+  height:175px;
+}
+
+.sol3{
+  background-color: rgba(255, 255, 255, .4);
+  grid-column:  3 / 7;
+  grid-row: 1 / 1;
+  width: 175px;
+  height:175px;
+}
+
+.sol4{
+  background-color: rgba(255, 255, 255, .4);
+  grid-column:  4 / 7;
+  grid-row: 1 / 1;
+  width: 175px;
+  height:175px;
+}
+
+.sol5{
+  background-color: rgba(255, 255, 255, .4);
+  grid-column:  5 / 7;
+  grid-row: 1 / 1;
+  width: 175px;
+  height:175px;
+}
+
+.sol6{
+  background-color: rgba(255, 255, 255, .4);
+  grid-column:  6 / 7;
+  grid-row: 1 / 1;
+  width: 175px;
+  height:175px;
+}
+
+.sol7{
+  background-color: rgba(255, 255, 255, .4);
+  grid-column:  7 / 7;
+  grid-row: 1 / 1;
+  width: 175px;
+  height:175px;
+}
+
